@@ -32,11 +32,14 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+       
+       
         <!-- Navegacion-->
-        
+        <header>
+        <section class="wrapper">
    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
 
-		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="fix">
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light fixed-top" id="fix">
 	    <div class="container">
 	    	<a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" width="60px;" height="30"; alt=""></a>
 	    	<form action="#" class="searchform order-sm-start order-lg-last">
@@ -47,17 +50,50 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
-<!--	        	<li class="nav-item"><a href="#page-top" class="nav-link">home</a></li>-->
+	        	<li class="nav-item"><a href="#page-top" class="nav-link">home</a></li>
 	        	<li class="nav-item"><a href="#nosotros" class="nav-link">nosotros somos</a></li>
 	        	<li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
 	        	<li class="nav-item"><a href="#portfolio" class="nav-link">Galeria</a></li>
-	          <li class="nav-item"><a href="#contact" class="nav-link">Contactos</a></li>
+	          <li class="nav-item"><a href="#podcat" class="nav-link">Podtcast</a></li>
+	            <li class="nav-item"><a href="#contact" class="nav-link">Contactos</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
+	  
+	  </section>
+	  </header>
+	  
+	  
 	
     <!-- END nav -->
+    
+    
+<!--    ////////////////////////////////////-->
+<!--
+   
+   <header>
+  <section class="wrapper">
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Tutoriales</a></li>
+				<li><a href="#">Cursos</a></li>
+				<li><a href="#">Preguntame algo</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+    </nav>
+    </section>
+</header>
+   
+-->
+   
+   
+<!--   ///////////////////////////////-->
+    
+    
+    
+    
 
 
 	<script src="js/jquery.min.js"></script>
@@ -154,10 +190,10 @@
         </section>
 <!--        social-->
           <div class="social-bar">
-    <a href="https://www.facebook.com/DevCode.la" class="icon icon-facebook" target="_blank"></a>
-    <a href="https://twitter.com/DevCodela" class="icon icon-twitter" target="_blank"></a>
-    <a href="https://www.youtube.com/c/devcodela" class="icon icon-youtube" target="_blank"></a>
-    <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a>
+    <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
   </div>
         
         
@@ -168,7 +204,8 @@
             <div class="container px-4 px-lg-5 text-center">
             <br>
             <br>
-            
+            <h2 class="text-secondary mb-0">Slider</h2> <br>
+            <br>
          <h3 class="text-secondary mb-0">SERVICIOS</h3><br>
             
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -257,6 +294,7 @@
             </div>
         </section>
         <!-- muestraaaa-->
+<!--
         <section class="content-section bg-primary text-white">
            <div class="row gx-0">
             <div class="container px-4 px-lg-5 text-center">
@@ -265,15 +303,62 @@
             
             
             
-<!--            -->
+            
        
             
             
             </div>
              </div>
         </section>
+-->
         <br>
         <br>
+<!--        ////////////////      posdcats /////////////////-->
+             <section class="content-section bg-primary text-white text-center" id="podcat">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 >Podtcast</h3>
+                    <h2 class="mb-5">Proyecto podtcast de la feria </h2>
+                </div>
+                
+               <div class="ratio ratio-16x9">
+  <video  controls src="assets/img/feria_proyecto.mp4"></video>
+</div>
+                
+                
+<!--
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/led-removebg-preview.png" alt a=""></span>
+                        <h4><strong>Luces led</strong></h4>
+                        <p class="text-faded mb-0">Tenemos todo diferentes luces para escenarios</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/camion-removebg-preview-removebg-preview.png" alt=""></span>
+                        <h4><strong>Camion </strong></h4>
+                        <p class="text-faded mb-0">Contamos con camion para poder ir a todas partes del pais </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/pantalla-removebg-preview.png" alt=""></span>
+                        <h4><strong>Pantallas</strong></h4>
+                        <p class="text-faded mb-0">
+                            Pantallas led para decorar el evento 
+                           
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><img src="assets/escenario-removebg-preview.png" alt=""></span>
+                        <h4><strong>Escenario</strong></h4>
+                        <p class="text-faded mb-0">Contamos con diferentes escenarios para todo tipo de eventos </p>
+                    </div>
+                </div>
+-->
+            </div>
+        </section>
+        
+        
+        
+        
  <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -356,7 +441,7 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">GRACIS POR VISITARNOS</h5>
+          <h5 class="text-uppercase">GRACIAS POR VISITARNOS</h5>
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
@@ -368,7 +453,7 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">CONTANOS MEDIANTE</h5>
+          <h5 class="text-uppercase">CONTACTOS MEDIANTE</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
@@ -439,10 +524,11 @@
         
        
         <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
